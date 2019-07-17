@@ -1,0 +1,38 @@
+﻿body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav li a {
+    color: #fff;
+}
+
+.wrap {
+    margin-top: 75px;
+}
+
+.page-title {
+    font-weight: 300;
+}
+
+td.anchor {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* Data-Table style override */
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: none !important;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 1px solid #ccc !important;
+}

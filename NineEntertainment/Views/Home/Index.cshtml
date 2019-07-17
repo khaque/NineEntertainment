@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="wrap">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="page-title">Person List</h1>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="raceSelect">Select A Race</label>
+                    <select class="form-control" id="raceSelect" onchange="GenerateTable();">
+                        <option value="Angles" selected>Angles</option>
+                        <option value="Saxons">Saxons</option>
+                        <option value="Jutes">Jutes</option>
+                        <option value="Hawaiian">Hawaiian</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-bordered table-responsive table-hover table-striped" id="raceTable">
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
