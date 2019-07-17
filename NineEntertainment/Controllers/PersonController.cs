@@ -40,7 +40,7 @@ namespace NineEntertainment.Controllers
         {
             try
             {
-                _people = _personService.GetPersonList("Angles");
+                _people = _personService.GetPersonList();
                 var output = _people.Count();
                 return Json(output);
             }
